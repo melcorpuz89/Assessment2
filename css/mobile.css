@@ -1,0 +1,78 @@
+
+
+/* navbar */
+#navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar ul{
+      margin-top: 1rem;
+  }
+   
+   
+  .bg-light {
+      background-color: rgba(248, 245, 245, 0.774);
+      height: 80vh;
+  }
+   
+  /* section: what we do */
+   
+  #what .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: left;
+   
+  }
+   
+  /* Align icon to left */
+  #what .items .item {
+      display: flex;
+      flex-direction: left;
+      margin-bottom: 1rem;
+  }
+   
+  /* Position icon */
+  #what .items .item i {
+    text-align: left;
+    padding: 5px;
+    border: 2px solid transparent;
+    margin-bottom: auto;
+    border-radius: 100%;
+}
+/* section who we are */
+/* who 768px */
+#who{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 0%;
+}
+#who .who-img img{
+    height: 400px;
+    width: 400px;
+    align-items: center;
+ 
+}
+/* section: clients */
+/* resize image */
+.p-1{
+    height: 5rem;
+    width: 5rem;
+ 
+}
+ /* Smartphones */
+/*@media (max-width: 500px) {
+  #home{
+      background: url(/img/smart_phone_home.png) no-repeat center center/cover;
+  }
+  section{
+      background: url(/img/smart_phone_what_we_do.png) no-repeat center center/cover;
+      
+  }
+  #main-footer{
+      background: url(/img/smart_phone_who_we_are_and_footer.png);
+  } 
+}*/
